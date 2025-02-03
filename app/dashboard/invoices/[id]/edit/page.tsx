@@ -4,7 +4,7 @@ import { fetchCustomers, fetchInvoiceById } from '@/app/lib/data';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
-export const metaData: Metadata = {
+export const metadata: Metadata = {
   title: "Edit Invoices",
   description: "Edit your invoices.",
 };
